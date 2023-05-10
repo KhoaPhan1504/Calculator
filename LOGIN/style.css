@@ -1,0 +1,37 @@
+ .container{
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.container form{
+    padding: 10px;
+    border: 1px solid #000;
+}
+.content-gr{
+    border-top: 1px solid #000;
+    padding-top:20px;
+}
+.form-group{
+    margin-top: 10px;
+    display: flex;
+}
+.title-form1{
+    width: 100px !important;
+}
+.btn_reset{
+    margin-left: 10px;
+}
+.form-group input:focus{
+    outline :1px solid blue;
+    border-radius: 5px;
+}
+.btn-re{
+    padding: 5px;
+    background-color: #f0f0f0;
+    text-decoration: none;
+    margin-left: 10px;
+    color:#000;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
